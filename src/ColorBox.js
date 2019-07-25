@@ -7,7 +7,7 @@ export default class ColorBox extends Component {
 
     if (newValue >= 0.2) {
       return (
-        <div className="color-box">
+        <div className="color-box" style={{opacity: this.props.opacity}}>
           <ColorBox opacity={newValue}/>
         </div>
       )
