@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Comment from './Comment';
 
-export default class BlogPost extends Component {
+export default class BlogPost extends React.Component {
   render() {
     
     const comments = [
